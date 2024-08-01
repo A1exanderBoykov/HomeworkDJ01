@@ -6,4 +6,7 @@ def index(request):
     return HttpResponse("<h1>Это мой первый проект на Django</h1>")
 
 def test(request):
-    return HttpResponse("<h1>Это вторая страница</h1>")
+    return HttpResponse("<h1>Это вторая страница проекта</h1>")
+
+def data(request):
+    return HttpResponse("<h1>Это третья страница проекта</h1>")
